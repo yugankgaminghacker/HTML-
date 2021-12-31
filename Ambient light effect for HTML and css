@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>first time profile </title>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/5.15.1/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+    </head>
+    <body>
+        <a href="index.html" class="mainWebsite">back To main website</a>
+        <div class="container">
+            <div class="navigation">
+                <ul>
+                    <li><a href="#banner">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Testimonial</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="main">
+                <div class="topbar">
+                    <a href="#" class="logo">Profile Of Yugank</a>
+                    <div class="toggle"><i class="fa fa-bars"></i></div>
+                </div> 
+            </div> 
+
+            <!--banner-->
+             <section class="banner" id="banner">
+                 <div class="content">
+                     <div class="imgBx">
+                         <img src="IMG 256px.jpg">
+                     </div>
+                     <h3>Yugank Vijay Patil</h3>
+                     <p>I am Creative Front End Web Devloper.</p>
+                     <a href="style.css" class="btn">Download My CV</a>
+                     <ul class="socialMedia">
+                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                         <li><a href="#"><i class="fa fab fa-instagram"></i></a></li>
+                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa fab fa-youtube-square"></i></a></li>
+                     </ul>
+                 </div>
+             </section>
+
+            
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ea culpa perspiciatis possimus accusamus et, tempora impedit totam fuga atque corporis laudantium mollitia corrupti eveniet aperiam soluta sit quaerat nemo quibusdam? Maiores, debitis asperiores, maxime autem quibusdam consectetur assumenda modi quas mollitia inventore ipsa veniam fugit? Aperiam distinctio id labore aspernatur, quaerat neque, pariatur doloremque possimus quibusdam ut eligendi earum fuga architecto vero amet impedit repudiandae aut et reiciendis iste laudantium libero. Corporis vel sapiente deserunt nulla sint quam doloremque commodi quo illum animi accusamus quae incidunt inventore, eum delectus reprehenderit, id aliquam ad aperiam modi! Consequuntur, est hic inventore reiciendis vitae ratione quam labore sapiente id tenetur nihil ex, odit enim quia quos animi tempora. Provident culpa earum quaerat animi perspiciatis sequi consectetur laborum vero ab voluptatum, eum quisquam hic totam ducimus sint quod. Dicta facere voluptatum aliquid totam magnam, velit perferendis optio molestias atque amet nam quidem animi enim fugiat, assumenda distinctio quaerat porro ab. Recusandae dolore pariatur, sapiente officiis perspiciatis natus quaerat amet quisquam excepturi quos tempora voluptate incidunt provident ex hic obcaecati harum error est? Sequi rerum obcaecati quibusdam quae esse cum aspernatur doloremque nostrum natus, dolorum voluptatibus dolore dicta suscipit, pariatur sint debitis, corporis iusto.
+                   </p>
+                    >
+                </div>
+             </section>
+        </div>
+
+        <script>
+            let toggle = document.querySelector('.toggle');
+            let topbar = document.querySelector('.topbar');
+            let navigation = document.querySelector('.navigation');
+            let main = document.querySelector('.main');
+            toggle.onclick = function(){
+                toggle.classList.toggle('active');
+                topbar.classList.toggle('active');
+                navigation.classList.toggle('active');
+                main.classList.toggle('active');
+            }
+        </script>
+    </body>
+</html>
